@@ -1,0 +1,50 @@
+# Brain imaging data files
+*.nii
+*.nii.gz
+*.dcm
+*.DICOM
+
+# SPM/MATLAB files
+*.mat
+spm_*.m
+*.ps
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data directories
+data/
+raw_data/
+preprocessed_data/
+results/
+*.csv
+*.xlsx
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
